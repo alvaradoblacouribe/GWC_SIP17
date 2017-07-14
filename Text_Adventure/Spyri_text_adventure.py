@@ -72,17 +72,18 @@ if location == "right" :
         wait = input ()
         print("The barista grins again, and lists a few things on the menu. When she's done, she says 'My personal favorite is the vanilla frappuccino, though. So, which do you want?' and awaits your response.")
         wait = input ()
-        print("You decide you trust her judgement and order an iced chai. You don't admit to yourself that maybe it's because you want to impress her, or maybe make her like you...? Argh.")
+        print("You decide you trust her judgement and order a vanilla frapuccino. You don't admit to yourself that maybe it's because you want to impress her, or maybe make her like you...? Argh.")
         wait = input ()
-        print("Turns out it worked though. As she passes you your cup, she whispers that he's glad you listened to him. Most people make fun of him for liking chai's, stating that they're 'childish,' and she's relieved you didn't. She thinks you're quite cute- it'd suck if you turned out to be rude!")
+        print("Turns out it worked though. As she passes you your cup, she whispers that she's glad you listened to her. Most people make fun of her for liking frappucino's, stating that they're 'childish,' and she's relieved you didn't. She thinks you're quite cute- it'd suck if you turned out to be rude!")
         wait = input ()
         print("You're shocked by her direct admission of her attraction to you, and barely register her face falling as she apologizes for making you uncomfortable. When you do, you quickly assure her she didn't, not at all, and somehow ask her out on a date in your flustered rant.")
         wait = input ()
         print("She slowly smiles again, and tells you when she's free. Together you arrange a date - tomorrow - and meeting place- right here, actually- and exchange numbers. You're waving goodbye much sooner than you'd like, but the thought of seeing her again tomorrow makes it worth it.")
         wait = input ()
-        print("You think of her as you sip your chai on the way home.")
+        print("You think of her as you sip your frappucino on the way home.")
 
 elif input == "left":
+    wait()
     print("You decide to go left. You walk far, no longer recognizing any faces at all as you leave your neighborhood, but nonetheless feeling content.")
     wait = input ()
     print("As you turn to watch a fluffy dog walk by, you fail to notice someone standing right in front of you, and you walk right into them! You apologize profuseley, but find your words dying on your lips when they finally turn to face you. Theyre...")
@@ -125,7 +126,7 @@ if location == "right":
     wait = input ()
     if you == them:
 	       print("""You notice a rectangular rainbow sticker in the window and a flag you hadn’t seen before. You must have missed them on your first visit, but now they give you a sense of comfort. You’ll be safe here.""")
-           wait = input ()
+
     print("""You’re a little early so you decide to order and find a table. You order two of your date’s favorite (which is now also your favorite) from the barista -the same one that was working with your date yesterday. She gives you a knowing smile before passing you the cups.""")
     wait = input ()
     print("""You don’t have to wait long; the ice has barely melted when your date swings open the door and spots you, excitedly making their way over to meet you.""")
@@ -136,9 +137,13 @@ if location == "right":
     wait = input ()
     if you == them:
 	       print("""You didn’t hold hands for the short part of the way home where you were headed in the same direction, for safety, but they had given your hand a squeeze before turning down an avenue, and you can still feel it.""")
-           wait = input ()
+
+    wait = input()
     print("""After a bit of walking alone, you note that you feel lighter than air. You haven’t felt this giddy in quite some time! More than anything though, you’re incredibly glad that you went for a walk yesterday.""")
-    wait = input ()
+    wait = input()
+    print("...")
+    wait = input()
+    print("You've completed one ending of 'Them'! I encourage you to replay the game, and try different combinations. There are a total of 5 different experiences- try to play them all! Exit the program and start again :)")
 # to the LEFT to the LEFT
 
 elif location == "left":
@@ -178,6 +183,9 @@ if you == them:
         wait = input ()
         print("She bids you goodbye and you wave back silently, unable to speak. You feel lighter than air and you're ecstatic. You haven’t felt this giddy in quite some time... More than anything though, in spite of everything, you’re incredibly glad that you went for a walk yesterday.")
         wait = input ()
+        print("...")
+        wait = input()
+        print("You've completed one ending of 'Them'! I encourage you to replay the game, and try different combinations. There are a total of 5 different experiences- try to play them all! Exit the program and start again :)")
 
     elif you == "boy":
 
@@ -205,6 +213,9 @@ if you == them:
         wait = input ()
         print("He bids you goodbye and you wave back silently, unable to speak. You feel lighter than air and you're ecstatic. You haven’t felt this giddy in quite some time... More than anything though, in spite of everything, you’re incredibly glad that you went for a walk yesterday.")
         wait = input ()
+        print("...")
+        wait = input()
+        print("You've completed one ending of 'Them'! I encourage you to replay the game, and try different combinations. There are a total of 5 different experiences- try to play them all! Exit the program and start again :)")
 
 elif you != "them":
     if "them" == "boy":
@@ -220,6 +231,9 @@ elif you != "them":
         wait = input ()
         print("He bids you goodbye and you wave back silently, unable to speak. You feel lighter than air and you're ecstatic. You haven’t felt this giddy in quite some time... More than anything though, you’re incredibly glad that you went for a walk yesterday.")
         wait = input ()
+        print("...")
+        wait = input()
+        print("You've completed one ending of 'Them'! I encourage you to replay the game, and try different combinations. There are a total of 5 different experiences- try to play them all! Exit the program and start again :)")
 
     elif them == "girl":
 
@@ -235,5 +249,6 @@ elif you != "them":
         wait = input ()
         print("She bids you goodbye and you wave back silently, unable to speak. You feel lighter than air and you're ecstatic. You haven’t felt this giddy in quite some time... More than anything though, you’re incredibly glad that you went for a walk yesterday.")
         wait = input ()
-
-print("You've completed one ending of 'Them'! I encourage you to replay the game, and try different combinations. There are a total of 6 different experiences- try to play them all! Click to Exit and start again :)")
+        print("...")
+        wait = input()
+        print("You've completed one ending of 'Them'! I encourage you to replay the game, and try different combinations. There are a total of 5 different experiences- try to play them all! Exit the program and start again :)")
